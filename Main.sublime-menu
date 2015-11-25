@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+        "caption": "Scss > Css",
+        "id": "s2c",
+        "children":
+        [
+          { "command": "set_scss_base", "caption": "Set scss base directory"},
+          { "command": "set_output_dir", "caption": "Set css output directory"},
+          { "command": "reset_scss_base_auto", "caption": "Set css output directory to 'auto'"},
+          { "caption": "-" },
+          { "command": "toggle_css_minification", "caption": "Toggle minify output css"},
+          { "caption": "-" },
+          { "command": "scss_to_css", "caption": "Compile this scss file to css"},
+          { "command": "all_scss_to_css", "caption": "Compile all scss in scss base directory to css" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Scss2Css",
+            "children":
+            [
+              {   "command" : "open_file",
+                  "args": {"file": "${packages}/Scss2Css/README.md"},
+                  "caption": "Read me"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/Scss2Css/scss2css.sublime-settings"},
+                  "caption": "Settings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/User/scss2css.sublime-settings"},
+                  "caption": "Settings – User"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Scss2Css/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Scss2Css/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Scss2Css/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              { "caption": "-" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

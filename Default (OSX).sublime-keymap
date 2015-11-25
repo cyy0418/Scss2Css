@@ -1,0 +1,5 @@
+[
+  {
+    "keys": ["alt+s"], "command": "scss_to_css"
+  }
+]

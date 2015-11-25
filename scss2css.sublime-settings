@@ -1,0 +1,24 @@
+/*
+ * Scss2Css default settings
+ *
+ * ******** IMPORTANT ********
+ *
+ * DO NOT modify this file,
+ * Copy the content to user settings
+ * via "Preferences" -> "Package Settings" -> "Scss2Css" -> "Settings - User".
+ *
+ */
+
+{
+  "autoCompile": true,
+  "createCssSourceMaps": false,
+  "ignorePrefixedFiles": false,
+  "scssBaseDir": "./",
+  "scssCommand": false,
+  "main_file": false,
+  "style" :"compressed", //nested，expanded，compact，compressed
+  "minName": false,
+  "outputDir": "./",
+  "outputFile": "", //[example.css] if left blank uses same name of .scss file
+  "showErrorWithWindow": true
+}
