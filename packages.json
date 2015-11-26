@@ -9,7 +9,7 @@
         "platforms": {
             "*": [{
                 "version": "1.0.0",
-               // "url": ""
+                "url": "https://github.com/cyy0418/Scss2Css/archive/1.0.0.zip"
             }]
         }
     }]
