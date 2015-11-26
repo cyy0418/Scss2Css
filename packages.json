@@ -1,0 +1,16 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [{
+        "name": "Scss2Css",
+        "description": "scss to css",
+        "author": "cyy0418@qq.com",
+        "homepage": "https://github.com/cyy0418/Scss2Css",
+        "last_modified": "2015-11-26",
+        "platforms": {
+            "*": [{
+                "version": "1.0.0",
+               // "url": ""
+            }]
+        }
+    }]
+}
