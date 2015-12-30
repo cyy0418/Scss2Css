@@ -30,3 +30,10 @@ You can add the scss2css settings like this:
 	}
 
 Now the user settings `autoCompile` and `style` will be overriden by the project setting.
+
+# 中文报错
+
+`/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass`
+
+在该路文件里面 `engine.rb`，添加一行代码：
+`Encoding.default_external = Encoding.find('utf-8')`
